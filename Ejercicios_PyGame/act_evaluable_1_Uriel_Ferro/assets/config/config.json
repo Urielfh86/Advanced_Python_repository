@@ -1,0 +1,38 @@
+{
+    "screen_size" : [800, 600],
+    "title" : "Girl walking: controlled by keyboard with left arrow, right arrow and space key to jump",
+    "background_color" : [176, 196, 222],
+    "foreground_color" : [0, 0, 0],
+    
+    "scene" : {
+        "floor_color" : [128, 128, 128],
+        "floor_size" : [800, 115],
+        "floor_pos" : [0, 485],
+        "sun_color" : [255, 215, 0],
+        "sun_pos" : [700, 70],
+        "sun_radio" : 30
+    },
+
+    "image" : {
+        "path" : ["assets", "images", "walking_animation.png"]
+    },
+
+    "girl" : {
+        "speed" : 0.2,
+        "size" : [64, 128],
+        "pos" : [400, 360]
+    },
+
+    "timing" : {
+        "fps" : 60,
+        "time_per_frame" : 16,
+        "fps_pos" : [0, 0],
+        "max_update_time" : 1000,
+        "time_to_change_frame_girl" : 80
+    },
+
+    "font" : {
+        "path" : ["assets", "font", "Sansation.ttf"],
+        "size" : 16
+    }
+}

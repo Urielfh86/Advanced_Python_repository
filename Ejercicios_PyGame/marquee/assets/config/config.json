@@ -1,0 +1,17 @@
+{
+    "screen_size" : [640, 480],
+    "title" : "Marquee",
+    "fps" : 60,
+    "background_color" : [0, 0, 0],
+
+    "font" : {
+        "path" : ["assets", "images", "AGENTS2.png"],
+        "columns" : 15,
+        "letter_size" : [20, 28],
+        "total_letters" : 44
+    },
+    "scroll" : {
+        "text" : " Uriel Ferro Hernandez",
+        "speed" : 0.1
+    }
+}
