@@ -1,0 +1,2 @@
+[console_scripts]
+shmup = shmup.__main__:main

@@ -1,0 +1,54 @@
+{
+    "game" : {
+        "screen_size" : [640, 480],
+        "background_color" : [184, 134, 11],
+        "title" : "ShMUp game",
+        "foreground_color" : [0, 0 , 0]
+    },
+    
+    "entities" : {
+        "avion" : {
+            "image_file" : ["shmup.assets.images", "avion.png"],
+            "speed" : 0.5,
+            "cool_down" : 200
+            },
+        "enemy" : {
+            "image_file" : ["shmup.assets.images", "enemy.png"],
+            "speed_range" : [0.1, 0.2],
+            "spawn_prob" : 0.01,
+            "fire_prob" : 0.05
+            }
+    },
+
+    "projectile" : {
+        "allied" : {
+            "image_file" : ["shmup.assets.images", "allied_bullet.png"],
+            "velocity" : [0.0, -0.3]
+            },
+            "enemy" : {
+                "image_file" : ["shmup.assets.images", "enemy_bullet.png"],
+                "speed_range" : [0.2, 0.5],
+                "velocity" : [0.0, 0.0]
+            }
+    },
+
+    "font" : {
+        "font_file" : ["shmup.assets.fonts", "Sansation_Regular.ttf"],
+        "font_size" : 16
+    },
+
+    "input" : {
+        "key_mapping" : {"left" : "a", 
+        "right" : "d", 
+        "down" : "s", 
+        "up" : "w",
+        "fire" : "space"}
+    },
+
+    "timing" : {
+        "fps" : 60,
+        "time_per_frame" : 16,
+        "fps_pos" : [0, 0],
+        "max_update_time" : 1000
+    }
+}
